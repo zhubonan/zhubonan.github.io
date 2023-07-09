@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>
+    
+      Bonan Zhu | Computational Materials Scientist at UCL
+    
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="https://zhubonan.github.io/feed.xml" title="Bonan Zhu">
+  <!-- Use RSS-2.0 -->
+  <!--<link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="Bonan Zhu | Computational Materials Scientist at UCL"/>
+  //-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      });
+  </script>
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Home | Bonan Zhu</title>
+<meta name="generator" content="Jekyll v4.3.2">
+<meta property="og:title" content="Home">
+<meta name="author" content="Bonan Zhu">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Computational Materials Scientist at UCL">
+<meta property="og:description" content="Computational Materials Scientist at UCL">
+<link rel="canonical" href="https://zhubonan.github.io/">
+<meta property="og:url" content="https://zhubonan.github.io/">
+<meta property="og:site_name" content="Bonan Zhu">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Home">
+<meta name="twitter:site" content="@1stbz">
+<meta name="twitter:creator" content="@Bonan Zhu">
+<meta name="google-site-verification" content="OpfWQC0z6rWcc-gHcJ6347BJqO7OPIcowyhcDSYKCXs">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Bonan Zhu"},"description":"Computational Materials Scientist at UCL","headline":"Home","name":"Bonan Zhu","url":"https://zhubonan.github.io/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+  <h3 class="header-title">
+    <a href="/">Bonan Zhu</a>
+    <small class="header-subtitle">Computational Materials Scientist at UCL</small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/about.html">About me</a>
+    
+      <a href="/posts.html">Posts</a>
+    
+      <a href="/codes.html">Codes</a>
+    
+      <a href="/publications.html">Publications</a>
+    
+      <a href="/contact.html">Contact</a>
+    
+  </nav>
+  <nav class="social-icons">
+    
+  
+  
+    <a href="https://www.github.com/zhubonan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://twitter.com/1stbz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="/feed.xml"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+  
+
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+      <div class="content-container">
+        
+  <div class="posts-container">
+    <h1>
+      <a href="/internet-for-login-nodes">Access the internet (for good) on login nodes behind firewalls</a>
+    </h1>
+    
+      <div class="thumbnail-container">
+        <a href="/internet-for-login-nodes"><img src="/assets/img/cards.jpg"></a>
+      </div>
+    
+    <p>
+      On some computing clusters the login nodes do not have internet access. 
+This is a  pain for installing software that requires pulling data from a repository, e.g. Python, Julia and many others.
+Lucky, there is a simple way to bypass this limitation without hacking through the firewall - SOCKS5 proxy with ssh reverse tunnelling. 
+This allows the... <a href="/internet-for-login-nodes">Read more</a>
+      <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> 19 Nov 2022 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
+  
+  
+    1 minute read
+  
+
+
+</span>
+    </p>
+  </div>
+
+  <div class="posts-container">
+    <h1>
+      <a href="/aiida-2.0-and-compression">enabling data compression in AiiDA 2.0</a>
+    </h1>
+    
+    <p>
+      AiiDA 2.0 introduces the new storage format. Rather than placing files individually shard folders, an object storage is used. 
+It includes storage backend stores the data and allows efficient retrival of the data using the hash computed from its content.
+By default, the disk-objectstore is used for this.
+The filenames and folder structures are n... <a href="/aiida-2.0-and-compression">Read more</a>
+      <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> 09 Jun 2022 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
+  
+  
+    1 minute read
+  
+
+
+</span>
+    </p>
+  </div>
+
+  <div class="posts-container">
+    <h1>
+      <a href="/DFT-parallelisation-rule-of-thumb">DFT parallelisation rule of thumb</a>
+    </h1>
+    
+      <div class="thumbnail-container">
+        <a href="/DFT-parallelisation-rule-of-thumb"><img src="/assets/img/mountains.jpg"></a>
+      </div>
+    
+    <p>
+      TL.DR for VASP
+
+
+  Maximise k point parallelisation whenever possible
+  keep number of bands per band group &gt; 10 for GGA calculation
+  use as little lower plane wave parallelisation as possible for hybrid calculations, but keep bands per band group &gt; 4
+  do not over parallelise by using too many core - you can end in the wrong side of the ... <a href="/DFT-parallelisation-rule-of-thumb">Read more</a>
+      <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> 15 Feb 2022 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
+  
+  
+    7 minute read
+  
+
+
+</span>
+    </p>
+  </div>
+
+  <div class="posts-container">
+    <h1>
+      <a href="/parallel-efficiency-of-pw-DFT">Parallel efficiencies of (small) plane wave DFT calculations</a>
+    </h1>
+    
+      <div class="thumbnail-container">
+        <a href="/parallel-efficiency-of-pw-DFT"><img src="/assets/img/mountain-everest.jpg"></a>
+      </div>
+    
+    <p>
+      Plane wave DFT calculations are often known as “cubic-scaling” where the cost grows as the number of atoms (more precisely the number of electrons) cubed.
+Thankfully, they can be parallelised over many (possibly very large number of cores) to accelerate the calculations.
+This is often done at multiple levels: the plane wave coefficients, the ban... <a href="/parallel-efficiency-of-pw-DFT">Read more</a>
+      <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> 14 Jul 2021 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
+  
+  
+    2 minute read
+  
+
+
+</span>
+    </p>
+  </div>
+
+  <div class="posts-container">
+    <h1>
+      <a href="/hello-world">Hello World!</a>
+    </h1>
+    
+      <div class="thumbnail-container">
+        <a href="/hello-world"><img src="/assets/img/mountains.jpg"></a>
+      </div>
+    
+    <p>
+      This my first post using Jekyll - so hello world.
+The aim of this site is to provide a peronal space for sharing my research and also act as a blog.
+From time to time, I will post contents related to computational materials science and programming.
+Hopefully, they will be of the interests of my fellow researchers and peers!
+ <a href="/hello-world">Read more</a>
+      <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> 13 Jul 2021 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
+  
+  
+    less than 1 minute read
+  
+
+
+</span>
+    </p>
+  </div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  
+    <span class="pagination-button">Older</span>
+  
+  
+    <span class="pagination-button">Newer</span>
+  
+</div>
+
+      </div>
+      <footer class="footer">
+  
+  
+  
+    <a href="https://www.github.com/zhubonan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="https://twitter.com/1stbz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="/feed.xml"><i class="fa fa-rss-square" aria-hidden="true"></i></a>
+  
+
+  <div class="footer-description"><a href="/">Bonan Zhu | Computational Materials Scientist at UCL by Bonan Zhu</a></div>
+</footer>
+
+    </div>
+  </body>
+</html>
