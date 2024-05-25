@@ -1,1 +1,4 @@
-Sitemap: https://zhubonan.github.io/sitemap.xml
+User-agent: *
+Disallow:
+
+Sitemap: https://bonanzhu.com/sitemap.xml
