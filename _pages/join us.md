@@ -25,7 +25,6 @@ It is highly recommended to make contact early:
 - Master and PhD students: Interviews for 2025 entry is likely to be conducted in October 2024. Please contact us early.
 - Postdoctoral researchers: Please email me if you are interested in working with us.
 
-
 ## 研究生招生（长期有效）
 
 欢迎对科研感兴趣、具有求知欲与好奇心的同学加入。力学、物理、材料、化学等专业的本科生可申请直博/直硕。
@@ -60,6 +59,5 @@ It is highly recommended to make contact early:
 入选学校“特立博士后”支持计划者，实施贯通式培养，出站可优先聘为预聘制教师；
 如果入选“博新计划”、“国际交流计划”引进项目，薪酬最高可到60万+；
 留京工作的博士后可以解决本人、配偶、子女在京落户；学校提供博士后公寓或租房补贴；未成年子女可进入拥有优质教育资源的理工附小、附幼就读，免去家庭后顾之忧。
-
 
 欢迎有意向者咨询，邮箱：bzhu@bit.edu.cn

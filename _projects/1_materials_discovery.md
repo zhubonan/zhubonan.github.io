@@ -16,7 +16,7 @@ A recurring theme in our approach which set us apart from traditional high-throu
 # Li-ion cathode materials
 
 Cathode is the performance and cost critical component of Li-ion batteries.
-Discovering high-capacity and low-cost cathode materials is essential to expand the applications and help increasing the use of sustainable energy sources  {% cite zhu_predicting_2022 zhu_accelerating_2021 cen_exploring_2023 %}.
+Discovering high-capacity and low-cost cathode materials is essential to expand the applications and help increasing the use of sustainable energy sources {% cite zhu_predicting_2022 zhu_accelerating_2021 cen_exploring_2023 %}.
 
 This project combines structure prediction and data-driven materials design to locate potential new cathode materials with earth abundant elements and high capacity.
 
@@ -33,14 +33,11 @@ Left: Reproducing experimental structure (and polymorphs) through ab initio rand
 Right: Searching for stable oxysulphides in the Li-Fe-S-O chemical space.
 </div>
 
-
-
 # Optoelectronics
 
 Optoelectronic materials have a wide range of applications in various fields such as display, lighting, and electronics.
 
 We develop and optimize materials that have potential applications as next generation semiconductor devices and display technologies {% cite han_discovery_2024 grosso_accessible_2023 %}.
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -54,6 +51,3 @@ We develop and optimize materials that have potential applications as next gener
 Left: Wide band gap semiconductor materials with tunable band gap through disordering.
 Right: High-throughput prediction of nitride perovskites and verifying their stability using AIRSS.
 </div>
-
-
-

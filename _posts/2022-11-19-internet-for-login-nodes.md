@@ -6,10 +6,10 @@ categories: posts
 tags: [posts, misc, linux]
 ---
 
-On some computing clusters the login nodes do not have internet access. 
-This is a  pain for installing software that requires pulling data from a repository, e.g. Python, Julia and many others.
-Lucky, there is a simple way to bypass this limitation without hacking through the firewall - SOCKS5 proxy with `ssh` [reverse tunnelling](https://man.openbsd.org/ssh). 
-This allows the internet traffic to be diverted to  a tunnel established by `ssh`, going through the client (local) machine.
+On some computing clusters the login nodes do not have internet access.
+This is a pain for installing software that requires pulling data from a repository, e.g. Python, Julia and many others.
+Lucky, there is a simple way to bypass this limitation without hacking through the firewall - SOCKS5 proxy with `ssh` [reverse tunnelling](https://man.openbsd.org/ssh).
+This allows the internet traffic to be diverted to a tunnel established by `ssh`, going through the client (local) machine.
 
 On the local machine, do:
 
@@ -24,7 +24,7 @@ export http_proxy=socks5h://localhost:<port_number>
 export https_proxy=socks5h://localhost:<port_number>
 ```
 
-or 
+or
 
 ```
 export http_proxy=socks5://localhost:<port_number>

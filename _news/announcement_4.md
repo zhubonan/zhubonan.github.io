@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Structure and ionic conduction enhancement mechanisms at CeO2/SrTiO3 heterointerfaces](https://pubs.aip.org/aip/apr/article/11/2/021420/3294312/Structure-and-ionic-conduction-enhancement) has been published in Applied Physics Reviews as *Featured Article*.
+Our paper [Structure and ionic conduction enhancement mechanisms at CeO2/SrTiO3 heterointerfaces](https://pubs.aip.org/aip/apr/article/11/2/021420/3294312/Structure-and-ionic-conduction-enhancement) has been published in Applied Physics Reviews as _Featured Article_.

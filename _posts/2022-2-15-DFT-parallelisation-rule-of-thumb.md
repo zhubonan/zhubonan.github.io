@@ -6,7 +6,7 @@ categories: posts
 tags: [posts]
 ---
 
-*TL.DR for VASP*
+_TL.DR for VASP_
 
 - Maximise k point parallelisation whenever possible
 - keep number of bands per band group > 10 for GGA calculation
@@ -17,11 +17,11 @@ When done efficiently plane wave density functional theory calculations can be v
 However, there are things to watch out for and ones needs to understand the how parallelisation works in order to maximise the efficiency.
 
 While sensible "defaults" are often described in the documenting or chosen by the code itself, there is one thing that the code cannot choose - the number of MPI processors to be used.
-Unfortunately, when the calculation is slow, the common reaction is to put more CPUs at work, which, in some cases, can even leads to slower calculation and drastic performance drops. 
+Unfortunately, when the calculation is slow, the common reaction is to put more CPUs at work, which, in some cases, can even leads to slower calculation and drastic performance drops.
 
-First, let's think about basic theory of parallelisation. I will not pull out the exact equation here though. 
+First, let's think about basic theory of parallelisation. I will not pull out the exact equation here though.
 For any given program, it is consisted of parallisable and the serial parts.
-Adding more parallelism will make the former faster (in the ideal case), but leave the latter unchanged. 
+Adding more parallelism will make the former faster (in the ideal case), but leave the latter unchanged.
 This explains the inevitable drop of the speed-up vs num-of-cpus plot, as the latter becomes more and more the dominate contribution to the run time.
 In addition, parallelisation also have certain overheads, each processor needs to communicate with others in some ways, and the communication cost may increase with increase number of core.
 This is the cause of the drop in the efficiency with high core counts in the many case.
@@ -40,19 +40,19 @@ The kpoint parallelisation is the most efficient one, exploiting the fact that e
 The band parallelisation is conducted by distributing the bands over certain number of processors, and implementing parallel solvers and algorithms.
 The plane wave coefficients are involved in FFT, and they can be parallelised and distributed as well.
 Unlike the other two levels, parallelisation over kpoint does not distribute the memory, each process still receives the fully set of kpoints.
-This is not the case with band and plane wave parallelisation, however, these two does involve heavy ("all-to-all") communications, making it more and more difficult to scale well on large core counts. 
+This is not the case with band and plane wave parallelisation, however, these two does involve heavy ("all-to-all") communications, making it more and more difficult to scale well on large core counts.
 On the other hand, one can expected almost perfect scaling with k-point paralellisation.
 There are of course many fine details on this topic, and many other part of the code (for example, auxiliary arrays and ionic solvers) can cost memory.
-The digrams below show the the relationship between these levels of parallelisation. 
+The digrams below show the the relationship between these levels of parallelisation.
 
 ```mermaid!
-flowchart 
+flowchart
 subgraph All MPI Ranks
 
 subgraph Kpoints
     KG1
     KG2[...]
-end 
+end
 
 subgraph Bands
     B1
@@ -62,14 +62,14 @@ end
 subgraph G-vectors
         Proc1
         Proc2
-        Proc3 
+        Proc3
 end
 KG1 --> Bands
 B1 --> G-vectors
 end
 ```
 
-At bit on the terminology - the number of *kpoint/band groups* means that MPI processes are divided into $N$ groups for this level, and each group may contain $M$ number of processes.
+At bit on the terminology - the number of _kpoint/band groups_ means that MPI processes are divided into $N$ groups for this level, and each group may contain $M$ number of processes.
 Hence, $M \times N$ is the total number of processes for this level. Typically, $N$ must be a divisor of the quantity to be parallelised over.
 For example, for a 320-process calculation with 4 kpoints and 120 bands, there can be:
 
@@ -97,13 +97,13 @@ Further down the file:
  maximum and minimum number of plane-waves per node :      2702     2616
 
 ```
+
 Shows that each processor inside the band group gets about 2700 plane-waves (G-vectors) to work on.
 If `NCORE` is increased, this value will reduce.
 When there are too few plane waves to be parallelised, the overall efficiency will drop sharply.
 However, increasing `NCORE` also increases the number of bands each band group works on, so improving the parallel efficiency over bands.
 
-
-To summarise, one should maximise the K-point parallelisation, 
+To summarise, one should maximise the K-point parallelisation,
 and balance band and G-vector parallelisation by tuning the `NCORE` parameter.
 If one is in a regime that both band and G-vector parallelisation have similar efficiency, choosing `NCORE` roughly a square root of the number of processors per group would be optimum.
 For relatively small GGA calculations, setting `NCORE` to be equal to the number of cores in a [NUMA region](https://en.wikipedia.org/wiki/Non-uniform_memory_access) can be a sensible choice.
@@ -113,7 +113,7 @@ In those cases, further optimisation of `NCORE` may only provide limited gain in
 
 Hybrid functional calculations often requires a large amount of computing resources to be used for a single calculation to achieve reasonable time to solution (e.g. within a few days).
 While these calculations are easier to scale purely as a result of them being very compute-heavy (they scale to thousands of cores, while most GGA calculation won't), careful tuning of parallelisation becomes even more important as every bit of performance gain can leads to huge saving of resources.
-Thus, one should carefully perform timing analysis for these calculations, typically using the *debug* or *short* queue of the supercomputer and run only for a few SCF cycles.
+Thus, one should carefully perform timing analysis for these calculations, typically using the _debug_ or _short_ queue of the supercomputer and run only for a few SCF cycles.
 
 In those cases, I would:
 
@@ -121,7 +121,7 @@ In those cases, I would:
 - start from a low NCORE given that the number of bands per band group is more than 4
 - to solve memory issue, reduce the kpoints before switching to "under-populate" the nodes.
 
-Because of the sheer among of resources needed for hybrid DFT, it is very easy to over-parallelise calculations and waste resources. So *test, test, test*.....
+Because of the sheer among of resources needed for hybrid DFT, it is very easy to over-parallelise calculations and waste resources. So _test, test, test_.....
 
 Example tests over `NCORE` for a 65-atom CdTe defect supercell calculation with 8 kpoints (`KPAR=8`), 346 bands (minimum), 47528 plane waves using HSE06 (`ALGO=normal`) with VASP6 on [ARCHER2](https://www.archer2.ac.uk):
 
@@ -134,7 +134,7 @@ Also note the speed up by doubling the core-count - we achieve a 80% gain in spe
 
 ## Further topics
 
-We haven not touched OpenMP parallelisation and GPU parallelisation. 
+We haven not touched OpenMP parallelisation and GPU parallelisation.
 I have seen good performance with the latter on latest generation of GPUs (e.g. Nvidia A100) for compute heavy hybrid functional VASP calculations.
 The OpenMP parallelisation can often be used to "recycle" idle cores on underpopulated nodes.
 
