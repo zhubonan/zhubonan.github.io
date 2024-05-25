@@ -4,7 +4,6 @@ title: "DFT parallelisation rule of thumb"
 author: "Bonan Zhu"
 categories: posts
 tags: [posts]
-image:mountains.jpg
 ---
 
 *TL.DR for VASP*
