@@ -48,7 +48,7 @@
       "studyType": "PhD",
       "startDate": "2016-10-01",
       "endDate": "2020-04-03"
-    }, 
+    },
     {
       "institution": "University of Cambridge",
       "url": "https://www.cam.ac.uk/",
@@ -58,41 +58,25 @@
       "endDate": "2016-06-23"
     }
   ],
-  "awards": [
-  ],
+  "awards": [],
   "skills": [
     {
       "name": "Physics",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Condensed Matters",
-        "Dynamics",
-        "Optoelectronics"
-      ]
+      "keywords": ["Condensed Matters", "Dynamics", "Optoelectronics"]
     },
     {
       "name": "Materials Science",
       "level": "PhD",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Functional Materials",
-        "Oxides",
-        "Thin Films",
-        "Density Functional Theory",
-        "Molecular Dynamics"
-      ]
+      "keywords": ["Functional Materials", "Oxides", "Thin Films", "Density Functional Theory", "Molecular Dynamics"]
     },
     {
       "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "Fortran",
-        "Julia",
-        "MATLAB"
-      ]
+      "keywords": ["Python", "Fortran", "Julia", "MATLAB"]
     }
   ],
   "languages": [
@@ -124,11 +108,7 @@
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Condensed Matters",
-        "Density Functional Theory",
-        "High Performance Computing"
-      ]
+      "keywords": ["Condensed Matters", "Density Functional Theory", "High Performance Computing"]
     }
   ]
 }
