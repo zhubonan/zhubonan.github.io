@@ -17,7 +17,7 @@ However, the rate of reduction in the parallel efficiency is also highly depende
 
 If there are many calculations to run through, rather than getting the result of each calculation quickly, it can be more efficient to run multiple calculations in parallel, each using a smaller number cores to achieve a higher throughput.
 
-Below are some test results for a 28-atom structure using the code [CASTEP]({{site.data.settings.software_urls.castep}}) with increasing number of cores while maintaining a full population of single compute node with 24 cores.
+Below are some test results for a 28-atom structure using the code [CASTEP](http://www.castep.org) with increasing number of cores while maintaining a full population of single compute node with 24 cores.
 This is a "small" calculation with only 340 eV plane wave cut off energy and 4 kpoints, and 106 bands.
 
 ![Test result](/assets/img/throughput-castep-full-occ.png)
