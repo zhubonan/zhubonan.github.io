@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
+title: People
 description: Members of the group
 nav: true
 nav_order: 7
@@ -15,7 +15,6 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: "email, github handle"
   - align: left
-    image: zhenhao.jpg
     content: zhenhao.md
     image_circular: false # crops the image to make it circular
     more_info: "email, github handle"
