@@ -22,6 +22,9 @@ profiles:
     content: xiexiao.md
     image: xiexiao.jpg
     image_circular: false
+    more_info: >
+      <p> xx_bit@163.com </p>
+      <p><a href="https://github.com/e-xx666">@e-xx666</a></p>
 ---
 
 Profiles of the group members.
