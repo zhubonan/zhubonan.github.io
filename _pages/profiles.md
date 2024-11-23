@@ -18,6 +18,10 @@ profiles:
     content: zhenhao.md
     image_circular: false # crops the image to make it circular
     more_info: "email, github handle"
+  - align: left
+    content: xiexiao.md
+    image: xiexiao.jpg
+    image_circular: false
 ---
 
 Profiles of the group members.
