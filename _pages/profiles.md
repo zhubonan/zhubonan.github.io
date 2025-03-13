@@ -10,21 +10,31 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: left
-    image: zuolong.jpg
-    content: zuolong.md
-    image_circular: false # crops the image to make it circular
-    more_info: "email, github handle"
-  - align: left
-    content: zhenhao.md
-    image_circular: false # crops the image to make it circular
-    more_info: "email, github handle"
-  - align: left
-    content: xiexiao.md
+    content: people_xiexiao.md
     image: xiexiao.jpg
     image_circular: false
     more_info: >
       <p> xx_bit@163.com </p>
-      <p><a href="https://github.com/e-xx666">@e-xx666</a></p>
+      <p><a href="https://github.com/e-xx666">GitHub:@e-xx666</a></p>
+  - align: left
+    image: zuolong.jpg
+    content: people_zuolong.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p><a href="https://github.com/jiazuolong">GitHub:@jiazuolong</a></p>
+  - align: left
+    content: people_zhenhao.md
+    image: people_zhenhao.jpg
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p><a href="https://github.com/zhqin826">GitHub:@zhqin826</a></p>
+  - align: left
+    content: people_fengxiang.md
+    image: people_fengxiang.jpg
+    image_circular: false
+    more_info: >
+      <p> 19907957126@163.com </p>
+      <p><a href="https://github.com/fxiag">GitHub:@fxiag</a></p>
 ---
 
 Profiles of the group members.
