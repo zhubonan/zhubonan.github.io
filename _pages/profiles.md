@@ -35,6 +35,12 @@ profiles:
     more_info: >
       <p> 19907957126@163.com </p>
       <p><a href="https://github.com/fxiag">GitHub:@fxiag</a></p>
+  - align: left
+    content: people_kuijuntao.md
+    image: people_kuijuntao.jpg
+    image_circular: false
+    more_info: >
+      <p><a href="https://github.com/kuijunT">GitHub:@kuijunT</a></p>
 ---
 
 Profiles of the group members.
