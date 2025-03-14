@@ -13,6 +13,9 @@ profiles:
     content: people_chengxu.md
     image: people_chengxu.jpg
     image_circular: false
+    more_info: >
+      <p> chengxu1990424@gmail.com </p>
+      <p><a href="https://github.com/Xu-Cheng-Newbie">GitHub:@Xu-Cheng-Newbie</a></p>
   - align: left
     content: people_xiexiao.md
     image: xiexiao.jpg
