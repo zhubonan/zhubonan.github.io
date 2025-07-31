@@ -48,7 +48,7 @@ profiles:
     image_circular: false
     more_info: >
       <p><a href="https://github.com/kuijunT">GitHub:@kuijunT</a></p>
- - align: left
+  - align: left
     content: people_fulei.md
     image: people_fulei.jpg
     image_circular: false
