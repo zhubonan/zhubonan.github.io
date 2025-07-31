@@ -1,4 +1,4 @@
-## PhD Student Lei Fu
+## Lei Fu
 
 PhD student
 
