@@ -48,6 +48,13 @@ profiles:
     image_circular: false
     more_info: >
       <p><a href="https://github.com/kuijunT">GitHub:@kuijunT</a></p>
+ - align: left
+    content: people_fulei.md
+    image: people_fulei.jpg
+    image_circular: false
+    more_info: >
+      <p> fl2995396957@163.com </p>
+      <p><a href="https://github.com/LeiFu887">GitHub:@LeiFu887</a></p>
 ---
 
 Profiles of the group members.
