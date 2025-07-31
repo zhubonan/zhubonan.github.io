@@ -24,6 +24,13 @@ profiles:
       <p> xx_bit@163.com </p>
       <p><a href="https://github.com/e-xx666">GitHub:@e-xx666</a></p>
   - align: left
+    content: people_fulei.md
+    image: people_fulei.jpg
+    image_circular: false
+    more_info: >
+      <p> fl2995396957@163.com </p>
+      <p><a href="https://github.com/LeiFu887">GitHub:@LeiFu887</a></p>
+  - align: left
     image: zuolong.jpg
     content: people_zuolong.md
     image_circular: false # crops the image to make it circular
@@ -48,13 +55,6 @@ profiles:
     image_circular: false
     more_info: >
       <p><a href="https://github.com/kuijunT">GitHub:@kuijunT</a></p>
-  - align: left
-    content: people_fulei.md
-    image: people_fulei.jpg
-    image_circular: false
-    more_info: >
-      <p> fl2995396957@163.com </p>
-      <p><a href="https://github.com/LeiFu887">GitHub:@LeiFu887</a></p>
 ---
 
 Profiles of the group members.
