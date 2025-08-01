@@ -1,4 +1,4 @@
-## PhD Student Xiao Xie
+## Xiao Xie
 
 PhD student
 
