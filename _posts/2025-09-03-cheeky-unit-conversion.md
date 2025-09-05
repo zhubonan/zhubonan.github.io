@@ -4,11 +4,12 @@ title: "A cheeky way to do unit conversion"
 author: "Bonan Zhu"
 categories: posts
 tags: [posts]
+katex: true
 ---
 
 # Unit conversion done right
 
-We often have to convert units, for example from $\mathrm{eV}$ to $\mathrm{Hartree}$, from $\mathrm{kJ/mol}$ to  $\mathrm{eV/atom}$ perhaps.
+We often have to convert units, for example from $$\mathrm{eV}$$ to $$\mathrm{Hartree}$$, from $$\mathrm{kJ/mol}$$ to  $$\mathrm{eV/atom}$$ perhaps.
 If you google "unit convertion", likely there will be online tools though: 1. they may not be right, and 2. you will have to watch some advertisements.
 
 In this post we show various ways to do common unit conversion in atomistic simulations without going to dodgy website or with good old pen and paper (cos I am a bit lazy).
@@ -27,7 +28,7 @@ energy_per_particle = energy_in_kj_mol * units.kJ / units.mol
 It should be kept in mind that the by connecting the value with the unit using `*`  the result is in ase's internal units. More information can be seen on https://ase-lib.org/ase/units.html:
 
 > Electron volts (eV), Ångström (Ang), the atomic mass unit and Kelvin are defined as 1.0.
-> Time is given in units of $\mathrm{\AA \sqrt{u/eV}}$. Thus, for example, $1 \mathrm{fs} \approx \mathrm{0.098\AA\sqrt{u / eV}}$ , where $\mathrm{u}$is the atomic mass unit.
+> Time is given in units of $$\mathrm{\AA \sqrt{u/eV}}$$. Thus, for example, $$1 \mathrm{fs} \approx \mathrm{0.098\AA\sqrt{u / eV}}$$ , where $$\mathrm{u}$$is the atomic mass unit.
 
 # Using `Unitful` and `UnitfulAtomic`
 
@@ -91,8 +92,8 @@ julia> uconvert(u"eV/Å^2", 10.0u"GPa")
 ERROR: DimensionError: eV Å^-2 and GPa are not dimensionally compatible.
 ```
 
-We can define units ourselves as well. It can be useful to define a `atom` unit in order to convert $\mathrm{kj/mol}$ to $\mathrm{eV/atom}$.
-One `atom` is a 1/$\mathrm{A_v}$ of a $\mathrm{mol}$ where $\mathrm{A_v}$ is the Avogadro's constant (stored as `Unitful.Na`):
+We can define units ourselves as well. It can be useful to define a `atom` unit in order to convert $$\mathrm{kj/mol}$$ to $$\mathrm{eV/atom}$$.
+One `atom` is a 1/$$\mathrm{A_v}$$ of a $$\mathrm{mol}$$ where $$\mathrm{A_v}$$ is the Avogadro's constant (stored as `Unitful.Na`):
 
 ```julia
 julia> using Unitful
