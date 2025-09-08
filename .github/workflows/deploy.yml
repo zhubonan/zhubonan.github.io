@@ -88,3 +88,16 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+      - name: Deploy to mirror
+        if: github.event_name != 'pull_request'
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_DEPLOY_HOST }}
+          username: ${{ secrets.SSH_DEPLOY_USERNAME }}
+          key: ${{ secrets.SSH_DEPLOY_KEY }}
+          port: ${{ secrets.SSH_DEPLOY_PORT }}
+          script: |
+            whoami
+            cd zhubonan.github.io/zhubonan.github.io
+            git fetch origin
+            git reset --hard origin/gh-pages
