@@ -13,3 +13,4 @@ vendor
 *.Identifier
 *.code-workspace
 .vscode
+.idea

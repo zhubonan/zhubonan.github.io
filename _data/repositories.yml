@@ -1,6 +1,8 @@
 github_users:
   - zhubonan
 
+repo_description_lines_max: 2
+
 github_repos:
   - zhubonan/aiida-castep
   - aiida-vasp/aiida-vasp
