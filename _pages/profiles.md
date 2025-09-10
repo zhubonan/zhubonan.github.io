@@ -4,7 +4,7 @@ permalink: /people/
 title: People
 description: Members of the group
 nav: true
-nav_order: 8
+nav_order: 9
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -62,6 +62,13 @@ profiles:
     more_info: >
       <p> 18535575319@163.com </p>
       <p><a href="https://github.com/Yang-xiao-sta">GitHub:@Yang-xiao-sta</a></p>
+       - align: left
+    content: people_yiliu.md
+    image: people_yiliu.jpg
+    image_circular: false
+    more_info: >
+      <p> 15073628470@163.com </p>
+      <p><a href="https://github.com/yiliu312">GitHub:@yiliu312</a></p>
 ---
 
 Profiles of the group members.
