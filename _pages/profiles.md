@@ -62,7 +62,7 @@ profiles:
     more_info: >
       <p> 18535575319@163.com </p>
       <p><a href="https://github.com/Yang-xiao-sta">GitHub:@Yang-xiao-sta</a></p>
-      - align: left
+  - align: left
     content: people_yiliu.md
     image: people_yiliu.jpg
     image_circular: false
