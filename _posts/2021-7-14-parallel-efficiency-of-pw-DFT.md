@@ -11,8 +11,8 @@ Thankfully, they can be parallelised over many (possibly very large number of co
 This is often done at multiple levels: the plane wave coefficients, the bands and the k points.
 
 A frequent question one may ask when running calculations is: how many cores should I use?
-Obviously, using more cores _should_ make the calculation faster, but it also increases the time spend on inter-process communications, causing the parallel efficiency to drop with increasing core counts.
-It not uncommon to see examples where a single calculation can be parallelised over thousands of cores for a supercomputer with relatively small drop on the efficiency.
+Obviously, using more cores _should_ make the calculation faster, but it also increases the time spent on inter-process communications, causing the parallel efficiency to drop with increasing core counts.
+It is not uncommon to see examples where a single calculation can be parallelised over thousands of cores for a supercomputer with relatively small drop on the efficiency.
 However, the rate of reduction in the parallel efficiency is also highly dependent on the size of the system: those of hard problems (e.g. more atoms) drop much slower than simple and small systems.
 
 If there are many calculations to run through, rather than getting the result of each calculation quickly, it can be more efficient to run multiple calculations in parallel, each using a smaller number cores to achieve a higher throughput.

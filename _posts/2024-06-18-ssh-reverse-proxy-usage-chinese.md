@@ -69,8 +69,8 @@ export https_proxy=http://localhost:7890
 如果在没有本地电脑可用HTTP代理服务器的情况下，使用了上述的SOCKS代理方案，则需要设置环境变量为：
 
 ```bash
-export http_proxy=socsk5h://localhost:7890
-export https_proxy=socsk5h://localhost:7890
+export http_proxy=socks5h://localhost:7890
+export https_proxy=socks5h://localhost:7890
 ```
 
 其中`socsk5h://`的意思是使用连接SOCKS代理链接的同时也使用代理服务器进行DNS解析，但是并不是所有的程序都支持这种协议。
