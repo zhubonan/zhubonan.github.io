@@ -121,7 +121,7 @@ In those cases, I would:
 - start from a low NCORE given that the number of bands per band group is more than 4
 - to solve memory issue, reduce the kpoints before switching to "under-populate" the nodes.
 
-Because of the sheer among of resources needed for hybrid DFT, it is very easy to over-parallelise calculations and waste resources. So _test, test, test_.....
+Because of the sheer amount of resources needed for hybrid DFT, it is very easy to over-parallelise calculations and waste resources. So _test, test, test_.....
 
 Example tests over `NCORE` for a 65-atom CdTe defect supercell calculation with 8 kpoints (`KPAR=8`), 346 bands (minimum), 47528 plane waves using HSE06 (`ALGO=normal`) with VASP6 on [ARCHER2](https://www.archer2.ac.uk):
 
