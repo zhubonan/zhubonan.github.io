@@ -42,9 +42,8 @@ function submitHandler(event) {
       "Content-Type": "application/x-www-form-urlencoded",
     },
   })
-    .then((res) => [res.ok, res.json(), res])
-    .then(([ok, dataPromise, res]) => {
-      if (ok) {
+    .then((res) => {
+      if (res.ok) {
         // If response successful
         // display success
         success.style.display = "flex";
@@ -52,7 +51,7 @@ function submitHandler(event) {
       } else {
         // If response unsuccessful
         // display error message or response status
-        dataPromise.then((data) => {
+        res.json().then((data) => {
           errorContainer.style.display = "flex";
           errorMessage.innerText = data.message ? data.message : res.statusText;
         });
