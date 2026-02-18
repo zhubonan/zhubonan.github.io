@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-Morden high-throughput calculations of materials properties can generate vast amount of data yet locating new and novel materials is no easy task.
+Modern high-throughput calculations of materials properties can generate vast amount of data yet locating new and novel materials is no easy task.
 We aim to develop methods that can identify new materials using data, domain knowledge and direction exploration of the configuration space and apply them to industrial relevant fields such as energy, optoelectronic and semiconductor materials.
 
 A recurring theme in our approach which set us apart from traditional high-throughput screening is the extensive usage of crystal structure prediction (CSP) techniques， which allow us to access under-explored regions of the chemical space (where existing data are scarce) and also to further validate the global stability of proposed theoretical models.

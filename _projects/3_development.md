@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-I am are interested in developing tools for material simulations and use them to solve real-world problems.
+I am interested in developing tools for material simulations and use them to solve real-world problems.
 
 ## Band structure unfolding
 
@@ -50,7 +50,7 @@ I have also developed a package to automate the process of running _ab initio_ r
 This package is called [DISP](https://github.com/zhubonan/disp) and is primarily aimed at running large scale searches distributed on multiple computers with flexibility and scalability.
 It uses a central database to store workflow data and results (so more like [atomate](https://atomate.org/)).
 
-## Nonelinear optics
+## Nonlinear optics
 
 NLOTools.jl is a tool for computing linear and non-linear optics properties of materials.
 Primarily aimed for use with the CASTEP code but also compatible with VASP.
@@ -62,7 +62,7 @@ This code will be open-sourced in the near future.
 
 EDDP is a simple approach to construct machine learning interatomic potential for accelerating crystal structure prediction {% cite salzbrenner_developments_2023 %}.
 The atomic environments are described with up to three-body terms with Lennard-Jones inspired expansion terms.
-The descriptors are them fed to a ensemble shallow neural networks for prediction of energy of forces.
+The descriptors are then fed to an ensemble of shallow neural networks for prediction of energy and forces.
 
 This approach is well-integrated with _ab initio_ random structure searching ([AIRSS](https://www.mtg.msm.cam.ac.uk/Codes/AIRSS)).
 

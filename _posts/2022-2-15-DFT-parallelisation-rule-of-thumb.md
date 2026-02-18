@@ -17,18 +17,18 @@ When done efficiently plane wave density functional theory calculations can be v
 However, there are things to watch out for and ones needs to understand the how parallelisation works in order to maximise the efficiency.
 
 While sensible "defaults" are often described in the documenting or chosen by the code itself, there is one thing that the code cannot choose - the number of MPI processors to be used.
-Unfortunately, when the calculation is slow, the common reaction is to put more CPUs at work, which, in some cases, can even leads to slower calculation and drastic performance drops.
+Unfortunately, when the calculation is slow, the common reaction is to put more CPUs at work, which, in some cases, can even lead to slower calculation and drastic performance drops.
 
 First, let's think about basic theory of parallelisation. I will not pull out the exact equation here though.
-For any given program, it is consisted of parallisable and the serial parts.
+For any given program, it consists of parallelisable and serial parts.
 Adding more parallelism will make the former faster (in the ideal case), but leave the latter unchanged.
 This explains the inevitable drop of the speed-up vs num-of-cpus plot, as the latter becomes more and more the dominate contribution to the run time.
 In addition, parallelisation also have certain overheads, each processor needs to communicate with others in some ways, and the communication cost may increase with increase number of core.
 This is the cause of the drop in the efficiency with high core counts in the many case.
 Even if the communication cost does not scale with the number of cores, its contribution to the "parallelised" part still increases with the number of processors because of time of doing actual work becomes less and less.
 
-Second, let's briefly words how plane wave DFT code are parallelised.
-Most of the codes are parallelised over MPI, the program that is ran with each MPI process, but directives are included in the code itself to orchestrate communication and memory distribution.
+Second, let's briefly describe how plane wave DFT codes are parallelised.
+Most of the codes are parallelised over MPI, the program that is run with each MPI process, but directives are included in the code itself to orchestrate communication and memory distribution.
 The parallelisation is commonly conducted by three levels:
 
 - kpoints
@@ -41,9 +41,9 @@ The band parallelisation is conducted by distributing the bands over certain num
 The plane wave coefficients are involved in FFT, and they can be parallelised and distributed as well.
 Unlike the other two levels, parallelisation over kpoint does not distribute the memory, each process still receives the fully set of kpoints.
 This is not the case with band and plane wave parallelisation, however, these two does involve heavy ("all-to-all") communications, making it more and more difficult to scale well on large core counts.
-On the other hand, one can expected almost perfect scaling with k-point paralellisation.
+On the other hand, one can expect almost perfect scaling with k-point parallelisation.
 There are of course many fine details on this topic, and many other part of the code (for example, auxiliary arrays and ionic solvers) can cost memory.
-The digrams below show the the relationship between these levels of parallelisation.
+The diagrams below show the relationship between these levels of parallelisation.
 
 ```mermaid!
 flowchart
@@ -85,7 +85,7 @@ For VASP, this information can be obtained on the top of the `OUTCAR`:
  distr:  one band on NCORE=   8 cores,    4 groups
 ```
 
-means there there are 12 kpoint groups (32 processes each), 4 band groups (8 processes each).
+means there are 12 kpoint groups (32 processes each), 4 band groups (8 processes each).
 This this calculation there are 48 band, hence each band group has 12 bands to work on.
 Further down the file:
 
@@ -121,7 +121,7 @@ In those cases, I would:
 - start from a low NCORE given that the number of bands per band group is more than 4
 - to solve memory issue, reduce the kpoints before switching to "under-populate" the nodes.
 
-Because of the sheer among of resources needed for hybrid DFT, it is very easy to over-parallelise calculations and waste resources. So _test, test, test_.....
+Because of the sheer amount of resources needed for hybrid DFT, it is very easy to over-parallelise calculations and waste resources. So _test, test, test_.....
 
 Example tests over `NCORE` for a 65-atom CdTe defect supercell calculation with 8 kpoints (`KPAR=8`), 346 bands (minimum), 47528 plane waves using HSE06 (`ALGO=normal`) with VASP6 on [ARCHER2](https://www.archer2.ac.uk):
 
@@ -138,5 +138,5 @@ We haven not touched OpenMP parallelisation and GPU parallelisation.
 I have seen good performance with the latter on latest generation of GPUs (e.g. Nvidia A100) for compute heavy hybrid functional VASP calculations.
 The OpenMP parallelisation can often be used to "recycle" idle cores on underpopulated nodes.
 
-We have not touch parallelisation in CASTEP, which is often planed by the code itself rather than the user.
+We have not touched parallelisation in CASTEP, which is often planned by the code itself rather than the user.
 Nevertheless, manual tuning can be valuable for large-scale calculations to achieve the good performance.
