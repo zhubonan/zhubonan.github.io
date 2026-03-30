@@ -8,12 +8,12 @@ category: work
 related_publications: true
 ---
 
-I am interested in developing tools for material simulations and use them to solve real-world problems.
+I am interested in developing tools for material simulations and using them to solve real-world problems.
 
 ## Band structure unfolding
 
 When a supercell is used for simulation, the band structure becomes folded in the reciprocal space.
-We have developed [easyunfold](https://github.com/SMTG-Bham/easyunfold), a Python package aimed at simplifying the process and help data provenance and sharing {% cite zhu_easyunfold_2024 %}.
+We have developed [easyunfold](https://github.com/SMTG-Bham/easyunfold), a Python package aimed at simplifying the process and helping data provenance and sharing {% cite zhu_easyunfold_2024 %}.
 
 <div class="row justify-content-md-center">
     <div class="col-4">
@@ -33,7 +33,7 @@ We have developed plugins to interface it with density functional theory codes:
 - [aiida-castep](https://github.com/aiida-vasp/aiida-vasp): The interface to the CASTEP code.
 - [aiida-grouppathx](https://github.com/zhubonan/aiida-grouppathx): A tool to organize provenance data in a file-and-folder style.
 
-Both package also includes workflows to handle calculation error and automate simple routine tasks such as structure optimization and band structure calculations.
+Both packages also include workflows to handle calculation errors and automate simple routine tasks such as structure optimization and band structure calculations.
 
 Advanced workflows can be found in the [aiida-user-addons](https://github.com/SMTG-Bham/aiida-user-addons) package, such as those for magnetic configuration enumeration, voltage curve calculation.
 
@@ -58,7 +58,7 @@ This code will be open-sourced in the near future.
 
 ## EDDP.jl
 
-[EDDP.jl](https://github.com/zhubonan/EDDP.jl) (the package name may change in the near future in compliance with Julia naming conventions) is a Julia implementation of the Ephemeral Data-Driven Potential (EDDP) aim at efficiency and being test beds for further developments.
+[EDDP.jl](https://github.com/zhubonan/EDDP.jl) (the package name may change in the near future in compliance with Julia naming conventions) is a Julia implementation of the Ephemeral Data-Driven Potential (EDDP) aimed at efficiency and being test beds for further developments.
 
 EDDP is a simple approach to construct machine learning interatomic potential for accelerating crystal structure prediction {% cite salzbrenner_developments_2023 %}.
 The atomic environments are described with up to three-body terms with Lennard-Jones inspired expansion terms.

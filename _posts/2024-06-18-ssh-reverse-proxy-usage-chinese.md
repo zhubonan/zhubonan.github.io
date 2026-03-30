@@ -22,7 +22,7 @@ tags: [posts, misc, linux, ssh]
 
 ### 第一步：在本地电脑上建立SSH反向隧道
 
-在你的本地电脑（Linux环境）上打开命令行或PowerShell（Window10之后的系统已经内置SSH客户端），输入以下命令来建立一个SSH反向隧道：
+在你的本地电脑（Linux环境）上打开命令行或PowerShell（Windows10之后的系统已经内置SSH客户端），输入以下命令来建立一个SSH反向隧道：
 
 ```bash
 ssh -R 7890:localhost:7890 username@remote_host
@@ -73,7 +73,7 @@ export http_proxy=socks5h://localhost:7890
 export https_proxy=socks5h://localhost:7890
 ```
 
-其中`socsk5h://`的意思是使用连接SOCKS代理链接的同时也使用代理服务器进行DNS解析，但是并不是所有的程序都支持这种协议。
+其中`socks5h://`的意思是使用连接SOCKS代理链接的同时也使用代理服务器进行DNS解析，但是并不是所有的程序都支持这种协议。
 相比之下，HTTP代理服务器（`http://`）的支持更加好一些。
 
 现在，你的远程电脑应该能通过本地电脑的代理服务器连接到互联网了。

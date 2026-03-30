@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>5 Zhongguancunnan Stress</p>
+    <p>5 Zhongguancunnan Street</p>
     <p>Beijing, China, 100081</p>
 
 news: true # includes a list of news items
@@ -26,6 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a professor at School of Aerospace Engineering, Beijing Institute of Technology, working in the field of computational materials science with wide range of interests in data-driven materials design, discovery.
+I am a professor at School of Aerospace Engineering, Beijing Institute of Technology, working in the field of computational materials science with a wide range of interests in data-driven materials design and discovery.
 Previously I was a postdoctoral research fellow (aka PDRA) at University College London, Department of Chemistry.
 Trained as an experimental physicist in my undergraduate study at University of Cambridge, but gradually shifted into computational materials science/chemistry over the years.

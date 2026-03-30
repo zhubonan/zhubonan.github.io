@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined School of Aerospace Engineering, Beijing Institute of Technology.
+I joined the School of Aerospace Engineering, Beijing Institute of Technology.

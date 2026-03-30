@@ -10,9 +10,9 @@ katex: true
 # Unit conversion done right
 
 We often have to convert units, for example from $$\mathrm{eV}$$ to $$\mathrm{Hartree}$$, from $$\mathrm{kJ/mol}$$ to $$\mathrm{eV/atom}$$ perhaps.
-If you google "unit convertion", likely there will be online tools though: 1. they may not be right, and 2. you will have to watch some advertisements.
+If you google "unit conversion", likely there will be online tools though: 1. they may not be right, and 2. you will have to watch some advertisements.
 
-In this post we show various ways to do common unit conversion in atomistic simulations without going to dodgy website or with good old pen and paper (cos I am a bit lazy).
+In this post we show various ways to do common unit conversion in atomistic simulations without going to a dodgy website or with good old pen and paper (cos I am a bit lazy).
 
 # Using `ase`
 
@@ -85,7 +85,7 @@ julia> uconvert(u"eV/Å^3", 10.0u"GPa")
 0.06241509074460763 eV Å^-3
 ```
 
-A nice thing is that `Unitful` does dimensionality checks so it unlikely to have unnoticed mistakes:
+A nice thing is that `Unitful` does dimensionality checks so it is unlikely to have unnoticed mistakes:
 
 ```julia
 julia> uconvert(u"eV/Å^2", 10.0u"GPa")

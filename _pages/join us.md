@@ -11,9 +11,9 @@ I am looking for talented and self-motivated individuals to join our team. If yo
 
 Potential projects can be (but not limited to):
 
-- Data-drive materials design and discovery for energy materials.
-- machine learning interatomic potential for large-scale simulations and crystal structure prediction.
-- Surface and solid-sold interfaces.
+- Data-driven materials design and discovery for energy materials.
+- Machine learning interatomic potentials for large-scale simulations and crystal structure prediction.
+- Surface and solid-solid interfaces.
 
 Background in physics, chemistry, materials science is preferred but not mandatory.
 Programming skills in Python, Julia, Fortran are highly desirable.
@@ -22,7 +22,7 @@ Publishing track-record in high-impact journals is a plus.
 We have positions opening at all levels, whether you are undergraduate students or post-docs.
 It is highly recommended to make contact early:
 
-- Master and PhD students: Interviews for 2025 entry is likely to be conducted in October 2024. Please contact us early.
+- Master and PhD students: Interviews for 2025 entry are likely to be conducted in October 2024. Please contact us early.
 - Postdoctoral researchers: Please email me if you are interested in working with us.
 
 ## 研究生招生（长期有效）
@@ -37,7 +37,7 @@ It is highly recommended to make contact early:
 
 ### 合作导师介绍
 
-朱博南，北京理工大学教授，博士生导师，国家级青年人才，承担国家自然科学基金青年项目。2016年于英国剑桥大学获得自然科学（物理）学士及硕士学位，2020年获英国剑桥大学材料科学博士学位，2020年至2023年于伦敦大学学院进行博士后研究工作，2023年入职北京理工大学宇航学院。长期从事新材料理论设计、晶体结构预测、物化性能调控研究，主要研究方向包括锂电池电极材料、先进光电材料的理论设计、新材料发现以及相关方法的发展与开发。在Nature Communication, Applied Physics Reviews, ACS Nano等高水平期刊发表文章31篇，任Journal of Open Sources Software编辑，Materials Genome Engineering Advances、《材料开发与应用》期刊青年编委。
+朱博南，北京理工大学教授，博士生导师，国家级青年人才，承担国家自然科学基金青年项目。2016年于英国剑桥大学获得自然科学（物理）学士及硕士学位，2020年获英国剑桥大学材料科学博士学位，2020年至2023年于伦敦大学学院进行博士后研究工作，2023年入职北京理工大学宇航学院。长期从事新材料理论设计、晶体结构预测、物化性能调控研究，主要研究方向包括锂电池电极材料、先进光电材料的理论设计、新材料发现以及相关方法的发展与开发。在Nature Communications, Applied Physics Reviews, ACS Nano等高水平期刊发表文章31篇，任Journal of Open Sources Software编辑，Materials Genome Engineering Advances、《材料开发与应用》期刊青年编委。
 
 个人网站: https://zhubonan.github.io
 
@@ -62,4 +62,4 @@ It is highly recommended to make contact early:
 朱博南教授：bzhu@bit.edu.cn
 
 欢迎有意向的同学联系，具体研究方向、薪酬待遇方面可以一事一议。
-PS：本团队经费、资源充裕，发展平台广阔，不搞内卷，不搞996，还有有丰富的国际交流机会 ^\_^。欢迎有志于科学研究事业的优秀青年加入，共同探索科学前沿，为科技创新贡献力量！
+PS：本团队经费、资源充裕，发展平台广阔，不搞内卷，不搞996，还有丰富的国际交流机会 ^\_^。欢迎有志于科学研究事业的优秀青年加入，共同探索科学前沿，为科技创新贡献力量！

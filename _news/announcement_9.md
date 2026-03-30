@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Welcome to our new member Lei Fu (PhD studnet) and Jie Zhou (Master's student)!
+Welcome to our new member Lei Fu (PhD student) and Jie Zhou (Master's student)!

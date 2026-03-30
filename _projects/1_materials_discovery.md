@@ -8,17 +8,17 @@ category: work
 related_publications: true
 ---
 
-Modern high-throughput calculations of materials properties can generate vast amount of data yet locating new and novel materials is no easy task.
-We aim to develop methods that can identify new materials using data, domain knowledge and direction exploration of the configuration space and apply them to industrial relevant fields such as energy, optoelectronic and semiconductor materials.
+Modern high-throughput calculations of materials properties can generate vast amounts of data, yet locating new and novel materials is no easy task.
+We aim to develop methods that can identify new materials using data, domain knowledge and direct exploration of the configuration space and apply them to industrially relevant fields such as energy, optoelectronic and semiconductor materials.
 
-A recurring theme in our approach which set us apart from traditional high-throughput screening is the extensive usage of crystal structure prediction (CSP) techniques， which allow us to access under-explored regions of the chemical space (where existing data are scarce) and also to further validate the global stability of proposed theoretical models.
+A recurring theme in our approach which sets us apart from traditional high-throughput screening is the extensive usage of crystal structure prediction (CSP) techniques, which allow us to access under-explored regions of the chemical space (where existing data are scarce) and also to further validate the global stability of proposed theoretical models.
 
 # Li-ion cathode materials
 
-Cathode is the performance and cost critical component of Li-ion batteries.
-Discovering high-capacity and low-cost cathode materials is essential to expand the applications and help increasing the use of sustainable energy sources {% cite zhu_predicting_2022 zhu_accelerating_2021 cen_exploring_2023 %}.
+The cathode is the performance and cost-critical component of Li-ion batteries.
+Discovering high-capacity and low-cost cathode materials is essential to expand the applications and help increase the use of sustainable energy sources {% cite zhu_predicting_2022 zhu_accelerating_2021 cen_exploring_2023 %}.
 
-This project combines structure prediction and data-driven materials design to locate potential new cathode materials with earth abundant elements and high capacity.
+This project combines structure prediction and data-driven materials design to locate potential new cathode materials with earth-abundant elements and high capacity.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

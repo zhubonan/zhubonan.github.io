@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Zuolong Jia has been abmitted to Zhongguancun Academy as a PhD student! Fingers-cross future Dr. Jia :P.
+Zuolong Jia has been admitted to Zhongguancun Academy as a PhD student! Fingers crossed for future Dr. Jia :P.

@@ -27,11 +27,11 @@ A few examples include 2D electron gas, enhanced ferroelectric/ferromagnetic pro
 
 # Emergent properties at interfaces
 
-Emerging properties may arise at atomically thin interfaces due to lattice mismatch, epitaxial effects strain and pinning of tilted octahedra {% cite li_emergent_2023 li_manipulating_2022 li_interface_2020 li_atomic-scale_2020 %}.
+Emerging properties may arise at atomically thin interfaces due to lattice mismatch, epitaxial effects, strain, and pinning of tilted octahedra {% cite li_emergent_2023 li_manipulating_2022 li_interface_2020 li_atomic-scale_2020 %}.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/octahedron_pinning.png" title="Pining of tilted octahedra in La<sub>0.9</sub>Ba<sub>0.1</sub>MnO<sub>3</sub>" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/octahedron_pinning.png" title="Pinning of tilted octahedra in La<sub>0.9</sub>Ba<sub>0.1</sub>MnO<sub>3</sub>" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dark_streaks.png" title="Dark streaks in thin-layers of LaCoO<sub>3</sub>" class="img-fluid rounded z-depth-1" %}

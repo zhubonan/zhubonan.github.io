@@ -6,7 +6,7 @@ categories: posts
 tags: [posts, misc]
 ---
 
-This my first post using Jekyll - so hello world.
+This is my first post using Jekyll - so hello world.
 The aim of this site is to provide a personal space for sharing my research and also act as a blog.
-From time to time, I will post contents related to computational materials science and programming.
-Hopefully, they will be of the interests of my fellow researchers and peers!
+From time to time, I will post content related to computational materials science and programming.
+Hopefully, they will be of interest to my fellow researchers and peers!
