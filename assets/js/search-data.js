@@ -86,7 +86,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-a-cheeky-way-to-do-unit-conversion",
+        },{id: "post-compiling-elpa-on-a-local-ubuntu-machine",
+        
+          title: "Compiling ELPA on a local Ubuntu machine",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/compiling-elpa-on-ubuntu/";
+          
+        },
+      },{id: "post-a-cheeky-way-to-do-unit-conversion",
         
           title: "A cheeky way to do unit conversion",
         
