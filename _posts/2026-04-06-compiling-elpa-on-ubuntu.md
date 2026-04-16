@@ -49,6 +49,9 @@ cd build
   --libdir="$HOME/local/elpa/2025.06.001/lib" \
   --includedir="$HOME/local/elpa/2025.06.001/include" \
   --enable-openmp \
+  --enable-complex \
+  --enable-float \
+  --enable-double \
   --enable-shared \
   CFLAGS='-O2 -march=native' \
   FCFLAGS='-O2 -march=native' \
@@ -102,6 +105,7 @@ These two variables are especially useful when the installation lives under your
 ## A note for ABACUS users
 
 If you are compiling ELPA for use with ABACUS, keep OpenMP enabled and prefer a shared-library build. In that case, it is also a good idea to use the MPI compiler wrappers explicitly and make sure the OpenMP ELPA library variant is installed, since ABACUS typically links against `-lelpa_openmp`.
+If elpa is installed system-wide (via `apt`), it is likely to be a quite old version and may cause confilict when compiling. 
 
 ## Final remarks
 
