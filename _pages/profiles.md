@@ -69,6 +69,13 @@ profiles:
     more_info: >
       <p> 15073628470@163.com </p>
       <p><a href="https://github.com/yiliu312">GitHub:@yiliu312</a></p>
+  - align: left
+    content: people_menghuixia.md
+    image: people_menghuixia.jpg
+    image_circular: false
+    more_info: >
+      <p> mhxia@foxmail.com </p>
+      <p><a href="https://github.com/mhxia2001">GitHub:@mhxia2001</a></p>
 ---
 
 Profiles of the group members.
