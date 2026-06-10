@@ -1,6 +1,7 @@
-- id: group
-  name: Group
+- id: group-photo
+  title: "Group Photo"
+  date: 2026-03
   photos:
-    - full: /assets/img/gallery/group/placeholder.jpg
-      thumb: /assets/img/gallery/group/placeholder.jpg
-      caption: "Group photo — coming soon!"
+    - full: /assets/img/gallery/group/placeholder.svg
+      thumb: /assets/img/gallery/group/placeholder.svg
+      caption: "Group photo — coming soon! Add yours via PR."
