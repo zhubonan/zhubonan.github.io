@@ -248,7 +248,7 @@ ninja.data = [{
           section: "News",},{id: "news-congratulations-to-xiao-xie-on-the-publication-of-his-paper-hfo2-based-memristive-synapses-with-asymmetrically-extended-p-n-heterointerfaces-for-highly-energy-efficient-neuromorphic-hardware-in-science-advances",
           title: 'Congratulations to Xiao Xie on the publication of his paper “HfO2-based memristive synapses...',
           description: "",
-          section: "News",},{id: "news-congratulations-to-kuijun-tao-on-completing-his-undergraduate-thesis-at-the-national-university-of-singapore",
+          section: "News",},{id: "news-congratulations-to-kuijun-tao-on-completing-his-undergraduate-thesis-at-the-national-university-of-singapore-jointly-supervised-by-zeyu-deng",
           title: 'Congratulations to Kuijun Tao on completing his undergraduate thesis at the National University...',
           description: "",
           section: "News",},{id: "projects-data-driven-materials-discovery",
