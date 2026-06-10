@@ -1,0 +1,6 @@
+- id: group
+  name: Group
+  photos:
+    - full: /assets/img/gallery/group/placeholder.jpg
+      thumb: /assets/img/gallery/group/placeholder.jpg
+      caption: "Group photo — coming soon!"
