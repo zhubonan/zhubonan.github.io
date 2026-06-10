@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Congratulations to Kuijun Tao on completing his undergraduate thesis at the National University of Singapore!
+Congratulations to Kuijun Tao on completing his undergraduate thesis at the National University of Singapore, jointly supervised by Zeyu Deng!
