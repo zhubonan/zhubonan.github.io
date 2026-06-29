@@ -79,14 +79,32 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "nav-people",
+            },{id: "nav-gallery",
+          title: "Gallery",
+          description: "Group photos and activity snapshots",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gallery/";
+          },
+        },{id: "nav-people",
           title: "People",
           description: "Members of the group",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-compiling-elpa-on-a-local-ubuntu-machine",
+        },{id: "post-setting-volume-in-airss-buildcell",
+        
+          title: "Setting Volume in AIRSS Buildcell",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/setting-volume-in-airss-buildcell/";
+          
+        },
+      },{id: "post-compiling-elpa-on-a-local-ubuntu-machine",
         
           title: "Compiling ELPA on a local Ubuntu machine",
         
