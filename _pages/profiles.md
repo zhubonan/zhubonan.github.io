@@ -76,6 +76,13 @@ profiles:
     more_info: >
       <p> mhxia@foxmail.com </p>
       <p><a href="https://github.com/mhxia2001">GitHub:@mhxia2001</a></p>
+  - align: left
+    content: people_huanyu.md
+    image: people_huanyu.png
+    image_circular: false
+    more_info: >
+      <p> hzhou@bit.edu.cn </p>
+      <p><a href="https://github.com/Spica-Vir">GitHub:@Spica-Vir</a></p>
 ---
 
 Profiles of the group members.
