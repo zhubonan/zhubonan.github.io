@@ -5,7 +5,7 @@ This file provides guidance for agentic coding agents working in this repository
 ## Project Overview
 
 This is an academic personal website built with **Jekyll** using the **al-folio** theme.
-It is deployed to GitHub Pages at `https://bonanzhu.com`. The site uses Liquid templating,
+It is deployed to GitHub Pages at `https://zhubonan.github.io`. The site uses Liquid templating,
 Markdown content files, BibTeX for publications, and SCSS for styling.
 
 ## Build & Development Commands
@@ -129,7 +129,7 @@ There are no automated tests. Verify changes by running the site locally and vis
 
 ## Key Configuration (`_config.yml`)
 
-- `url`: `https://bonanzhu.com`
+- `url`: `https://zhubonan.github.io`
 - `baseurl`: empty (root deployment)
 - Markdown engine: `kramdown` with GFM input
 - Syntax highlighter: `rouge`
