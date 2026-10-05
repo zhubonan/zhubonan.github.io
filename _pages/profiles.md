@@ -37,12 +37,6 @@ profiles:
     more_info: >
       <p><a href="https://github.com/jiazuolong">GitHub:@jiazuolong</a></p>
   - align: left
-    content: people_zhenhao.md
-    image: people_zhenhao.jpg
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p><a href="https://github.com/zhqin826">GitHub:@zhqin826</a></p>
-  - align: left
     content: people_fengxiang.md
     image: people_fengxiang.jpg
     image_circular: false
@@ -83,6 +77,14 @@ profiles:
     more_info: >
       <p> hzhou@bit.edu.cn </p>
       <p><a href="https://github.com/Spica-Vir">GitHub:@Spica-Vir</a></p>
+
+  - align: left
+    content: people_zhenhao.md
+    image: people_zhenhao.jpg
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p><a href="https://github.com/zhqin826">GitHub:@zhqin826</a></p>
 ---
 
 Profiles of the group members.
+

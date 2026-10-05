@@ -10,6 +10,28 @@ related_publications: true
 
 I am interested in developing tools for material simulations and using them to solve real-world problems.
 
+## Symmetrix-XL: fast inference for atomistic foundation models
+
+Equivariant atomistic foundation models such as [MACE](https://mace-docs.readthedocs.io/) provide broadly transferable interatomic potentials, but their repeated execution at simulation scale remains computationally and memory intensive.
+[Symmetrix-XL](https://arxiv.org/abs/2610.01036) is an inference engine that scales pretrained MACE checkpoints **without retraining, distillation, or modification of their learned weights**.
+It combines streamed-edge execution, model-specialized code generation, and tiled execution with a bounded device-memory workspace.
+
+The results are dramatic: on a single A100 80 GB GPU, the MACE-OMAT-0 capacity boundary increases from 24,565 atoms to **11.24 million atoms**, with 3–5× faster end-to-end inference compared to optimized baselines, and the same backend weak-scales to 703 million atoms on 64 A800 GPUs at 93.8% efficiency {% cite fu_symmetrix_2026 %}.
+
+<div class="row justify-content-md-center">
+    <div class="col-7">
+        {% include figure.liquid loading="eager" path="assets/img/symmetrix_xl_overview.png" title="Overview of the Symmetrix-XL execution strategy" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row justify-content-md-center">
+    <div class="col-6">
+        {% include figure.liquid loading="eager" path="assets/img/symmetrix_xl_capacity.png" title="Single-GPU LAMMPS capacity of Symmetrix-XL" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-6">
+        {% include figure.liquid loading="eager" path="assets/img/symmetrix_xl_throughput.png" title="End-to-end inference time of Symmetrix-XL" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ## Band structure unfolding
 
 When a supercell is used for simulation, the band structure becomes folded in the reciprocal space.
