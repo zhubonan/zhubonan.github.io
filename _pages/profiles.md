@@ -7,8 +7,7 @@ nav: true
 nav_order: 9
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
+  # Post-doctoral researchers
   - align: left
     content: people_chengxu.md
     image: people_chengxu.jpg
@@ -16,6 +15,14 @@ profiles:
     more_info: >
       <p> chengxu1990424@gmail.com </p>
       <p><a href="https://github.com/Xu-Cheng-Newbie">GitHub:@Xu-Cheng-Newbie</a></p>
+  - align: left
+    content: people_huanyu.md
+    image: people_huanyu.png
+    image_circular: false
+    more_info: >
+      <p> hzhou@bit.edu.cn </p>
+      <p><a href="https://github.com/Spica-Vir">GitHub:@Spica-Vir</a></p>
+  # PhD students
   - align: left
     content: people_xiexiao.md
     image: xiexiao.jpg
@@ -44,6 +51,14 @@ profiles:
       <p> 19907957126@163.com </p>
       <p><a href="https://github.com/fxiag">GitHub:@fxiag</a></p>
   - align: left
+    content: people_menghuixia.md
+    image: people_menghuixia.jpg
+    image_circular: false
+    more_info: >
+      <p> mhxia@foxmail.com </p>
+      <p><a href="https://github.com/mhxia2001">GitHub:@mhxia2001</a></p>
+  # Master's students
+  - align: left
     content: people_kuijuntao.md
     image: people_kuijuntao.jpg
     image_circular: false
@@ -63,21 +78,7 @@ profiles:
     more_info: >
       <p> 15073628470@163.com </p>
       <p><a href="https://github.com/yiliu312">GitHub:@yiliu312</a></p>
-  - align: left
-    content: people_menghuixia.md
-    image: people_menghuixia.jpg
-    image_circular: false
-    more_info: >
-      <p> mhxia@foxmail.com </p>
-      <p><a href="https://github.com/mhxia2001">GitHub:@mhxia2001</a></p>
-  - align: left
-    content: people_huanyu.md
-    image: people_huanyu.png
-    image_circular: false
-    more_info: >
-      <p> hzhou@bit.edu.cn </p>
-      <p><a href="https://github.com/Spica-Vir">GitHub:@Spica-Vir</a></p>
-
+  # Alumni
   - align: left
     content: people_zhenhao.md
     image: people_zhenhao.jpg
@@ -87,4 +88,3 @@ profiles:
 ---
 
 Profiles of the group members.
-
