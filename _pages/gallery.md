@@ -17,6 +17,7 @@ To add photos from an event, please submit a pull request following the [instruc
 ---
 
 {% for event in site.data.gallery %}
+
 ### {{ event.title }}
 
 <div class="row">

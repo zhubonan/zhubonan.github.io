@@ -18,6 +18,7 @@ One of the most common questions from AIRSS beginners is: **how do I set `#VARVO
 Consider two equivalent seed files for CaTiO₃:
 
 **With `%NUM` expansion (3 rows):**
+
 ```
 %BLOCK POSITIONS_FRAC
 Ca 0.0 0.0 0.0 # Ca % NUM=1
@@ -29,6 +30,7 @@ O  0.0 0.0 0.0 # O  % NUM=3
 ```
 
 **Without `%NUM` (5 rows, explicit atoms):**
+
 ```
 %BLOCK POSITIONS_FRAC
 Ca 0.0 0.0 0.0
@@ -110,6 +112,7 @@ gencell <total_volume> <n_formula_units> <species1> <count1> ...
 ```
 
 For CaTiO₃:
+
 ```bash
 gencell 60 1 Ca 1 Ti 1 O 3
 ```
