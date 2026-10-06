@@ -2,7 +2,7 @@
 layout: page
 title: Data-driven materials discovery
 description: Locating needle from a haystack.
-img: assets/img/origami-discovery.png
+img: assets/img/origami-discovery.jpg
 importance: 1
 category: work
 related_publications: true
