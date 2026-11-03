@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bonanzhu.com/sitemap.xml
+Sitemap: https://zhubonan.github.io/sitemap.xml
