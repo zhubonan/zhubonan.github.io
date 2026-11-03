@@ -22,44 +22,49 @@ Publishing track-record in high-impact journals is a plus.
 We have positions opening at all levels, whether you are undergraduate students or post-docs.
 It is highly recommended to make contact early:
 
-- Master and PhD students: Interviews for 2025 entry are likely to be conducted in October 2024. Please contact us early.
+- Master and PhD students: Interviews for 2027 entry are likely to be conducted in the autumn of 2026. Please contact us early.
 - Postdoctoral researchers: Please email me if you are interested in working with us.
 
-## 研究生招生（长期有效）
+## Graduate admissions (rolling)
 
-欢迎对科研感兴趣、具有求知欲与好奇心的同学加入。力学、物理、材料、化学等专业的本科生可申请直博/直硕。
-对材料理论设计、第一性原理计算、机器学习、能源材料感兴趣的硕士生，欢迎报考申请考核制博士生。
-课题组将提供良好的研究、学习环境，提供丰富的科研经历与项目，鼓励学生自主创新，培养独立的科研能力。
+We welcome motivated and curious students to join the group. Undergraduates in mechanics, physics, materials science, chemistry, and related disciplines may apply for direct-entry PhD or master's programmes. Master's students interested in theoretical materials design, first-principles calculations, machine learning, or energy materials are encouraged to apply for a PhD through the admission-by-assessment route.
 
-感兴趣的同学请直接发Email到本页面最下方联系人邮箱。
+The group offers a supportive research and study environment, a broad range of projects and research experience, and encourages students to pursue independent, creative work and to develop into independent researchers.
 
-## 博士后招聘（长期有效）
+Interested students should email the contact address at the bottom of this page.
 
-### 合作导师介绍
+## Postdoctoral positions (rolling)
 
-朱博南，北京理工大学教授，博士生导师，国家级青年人才，承担国家自然科学基金青年项目。2016年于英国剑桥大学获得自然科学（物理）学士及硕士学位，2020年获英国剑桥大学材料科学博士学位，2020年至2023年于伦敦大学学院进行博士后研究工作，2023年入职北京理工大学宇航学院。长期从事新材料理论设计、晶体结构预测、物化性能调控研究，主要研究方向包括锂电池电极材料、先进光电材料的理论设计、新材料发现以及相关方法的发展与开发。在Nature Communications, Applied Physics Reviews, ACS Nano等高水平期刊发表文章31篇，任Journal of Open Sources Software编辑，Materials Genome Engineering Advances、《材料开发与应用》期刊青年编委。
+### About the advisor
 
-个人网站: https://zhubonan.github.io
+Bonan Zhu is a Professor and doctoral supervisor at the Beijing Institute of Technology, and a recipient of the National Young Talent programme. He holds a National Natural Science Foundation of China Young Scientists grant. He received his BA and MS in Natural Sciences (Physics) from the University of Cambridge in 2016 and his PhD in Materials Science from the University of Cambridge in 2020, and worked as a postdoctoral researcher at University College London from 2020 to 2023 before joining the School of Aerospace Engineering at BIT in 2023.
 
-### 应聘条件
+His research focuses on the theoretical design of new materials, crystal structure prediction, and the control of physical and chemical properties, with particular interests in electrode materials for lithium batteries, the theoretical design of advanced optoelectronic materials, materials discovery, and the development of related methods. He has published 31 papers in journals including *Nature Communications*, *Applied Physics Reviews*, and *ACS Nano*. He is an editor of the *Journal of Open Source Software* and a young editorial board member of *Materials Genome Engineering Advances* and *Materials Development and Application*.
 
-具有物理、化学、材料、力学或相关专业的博士学位（或近期将获得博士学位）；具有独立开展科研的能力、扎实的专业积累、良好的职业操守以及团队合作精神；符合北京理工大学博士后招收的基本条件；优先考虑具有以下研究背景之一的申请者：1）第一性原理计算2）材料信息学、机器学习与高通量计算3）具有一定的编程基础，掌握一种或多种语言（Python、Fortran、Julia、C++)
+Personal website: https://zhubonan.github.io
 
-### 研究领域
+### Requirements
 
-研究方向包括但不限于以下方向：能源、光电方向的数据驱动新材料设计材料发现、晶体结构预测相关方法的发展表面、界面性质模拟与计算
+A PhD (or imminent PhD) in physics, chemistry, materials science, mechanics, or a related discipline; the ability to carry out independent research; a solid professional foundation; good professional conduct and a collaborative spirit; and eligibility under BIT's general postdoctoral recruitment requirements. Applicants with one or more of the following backgrounds are preferred:
 
-### 基本待遇
+1. First-principles calculations.
+2. Materials informatics, machine learning, and high-throughput computing.
+3. A programming background, with proficiency in one or more of Python, Fortran, Julia, or C++.
 
-1. 基础年薪25-40万 + 项目绩效 + 学校缴纳的社保、公积金；
-2. 入选学校“特立博士后”支持计划者，实施贯通式培养，出站可优先聘为预聘制教师；
-3. 如果入选“博新计划”、“国际交流计划”引进项目，薪酬最高可到60万+；
-4. 留京工作的博士后可以解决本人、配偶、子女在京落户；
-5. 学校提供博士后公寓或租房补贴；未成年子女可进入拥有优质教育资源的理工附小、附幼就读，免去家庭后顾之忧。
+### Research areas
 
-### 联系方式
+Research directions include, but are not limited to: data-driven design and discovery of new materials for energy and optoelectronic applications; the development of methods for crystal structure prediction; and simulation and calculation of surface and interface properties.
 
-朱博南教授：bzhu@bit.edu.cn
+### Compensation and benefits
 
-欢迎有意向的同学联系，具体研究方向、薪酬待遇方面可以一事一议。
-PS：本团队经费、资源充裕，发展平台广阔，不搞内卷，不搞996，还有丰富的国际交流机会 ^\_^。欢迎有志于科学研究事业的优秀青年加入，共同探索科学前沿，为科技创新贡献力量！
+1. Base annual salary of RMB 250,000–400,000, plus project performance bonus and the university's contributions to social insurance and the housing fund.
+2. Candidates selected for the university's "Teli Postdoctoral" support programme enter a through-train scheme and may be given priority for a tenure-track faculty position upon completion.
+3. Candidates selected for the national "Boshi Xin" (Postdoctoral Innovative Talent Support) programme or the International Exchange programme may receive a total compensation of up to RMB 600,000+.
+4. Postdocs who remain in Beijing can obtain Beijing household registration (hukou) for themselves, their spouse, and their children.
+5. The university provides postdoctoral apartments or a rent subsidy; dependent children can attend the BIT affiliated primary school and kindergarten, which offer high-quality education.
+
+### Contact
+
+Professor Bonan Zhu — bzhu@bit.edu.cn
+
+Interested candidates are welcome to get in touch; the specific research direction and compensation can be discussed on a case-by-case basis. The group has ample funding and resources, a broad development platform, a healthy working culture (no 996), and rich opportunities for international exchange. We welcome outstanding young researchers who are committed to science to join us in exploring the research frontier.
